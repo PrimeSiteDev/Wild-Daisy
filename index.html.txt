@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wild Daisy | Handmade Crafts</title>
+<style>
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f5f0;
+  color: #333;
+}
+
+header {
+  background-color: #d8cfc4;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+nav {
+  text-align: center;
+  padding: 10px;
+  background-color: #eee;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: url('https://images.unsplash.com/photo-1524594154908-edd3c9d6fddc') no-repeat center/cover;
+  color: white;
+}
+
+.hero h2 {
+  font-size: 2.5em;
+}
+
+.shop {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  background: white;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.product img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #a1866f;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #8c725c;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #d8cfc4;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>🌼 Wild Daisy</h1>
+  <p>Handmade Farmhouse Crafts & Decor</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#shop">Shop</a>
+  <a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+  <h2>Beautiful Handmade Creations</h2>
+  <p>T-Shirts • Wreaths • Farmhouse Decor</p>
+</section>
+
+<section id="shop" class="shop">
+  <h2>Shop Our Products</h2>
+
+  <div class="products">
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1521334884684-d80222895322" alt="T-Shirt">
+      <h3>Custom T-Shirt</h3>
+      <p>$25</p>
+      <button onclick="alert('Connect this to PayPal or Shopify later')">Buy Now</button>
+    </div>
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1600566752227-8f3b9d0c57bb" alt="Wreath">
+      <h3>Farmhouse Wreath</h3>
+      <p>$40</p>
+      <button onclick="alert('Connect this to PayPal or Shopify later')">Buy Now</button>
+    </div>
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1582582429416-c8f7b9b9c7c3" alt="Decor">
+      <h3>Rustic Decor Piece</h3>
+      <p>$35</p>
+      <button onclick="alert('Connect this to PayPal or Shopify later')">Buy Now</button>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Wild Daisy | Handmade with ❤️</p>
+</footer>
+
+</body>
+</html>
